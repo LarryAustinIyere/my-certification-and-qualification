@@ -100,7 +100,7 @@ a:hover {
     display: block;
     overflow: hidden;
     height: 100vh;
-    background-image: url('lautaro-andreani-UYsBCu9RP3Y-unsplash.jpg');
+    background-image: url('image/lautaro-andreani-UYsBCu9RP3Y-unsplash.jpg');
     background-size: cover;
     background-position: center;
     transform: scale(1) rotateX(0);
@@ -289,6 +289,15 @@ body.about-on .about-section {
     transform: rotate(90deg);
 }
 
+.main-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
 .section-center {
     position: absolute;
     width: 100%;
@@ -296,6 +305,9 @@ body.about-on .about-section {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .about-section img {
