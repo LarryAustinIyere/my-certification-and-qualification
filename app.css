@@ -120,7 +120,6 @@ a:hover {
 }
 
 .hero-section .dancing {
-    /* font-family: 'Dancing Script', cursive; */
     font-family: 'Poppins', cursive;
     letter-spacing: 1px;
     color: #121096;
@@ -193,13 +192,13 @@ body.contact-on .hero-section {
     transition-delay: 0ms;
 } */
 
-body.wildlife-on .hero-section {
+body.certification-on .hero-section {
     transform: rotateX(-10deg);
     -webkit-transition-delay: 0ms;
     transition-delay: 0ms;
 }
 
-body.nature-on .hero-section {
+body.resume-on .hero-section {
     transform: rotateX(-10deg);
     -webkit-transition-delay: 0ms;
     transition-delay: 0ms;
@@ -320,7 +319,8 @@ body.about-on .about-section {
 }
 
 .about-section p span {
-    font-family: 'Poppins', cursive;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Poppins', cursive; */
     letter-spacing: 1px;
     color: #121096;
     font-size: 25px;
@@ -443,8 +443,8 @@ body.contact-on .contact-section {
 }
 
 .travel-section,
-.wildlife-section,
-.nature-section {
+.certification-section,
+.resume-section {
     position: fixed;
     top: 100%;
     left: 0;
@@ -461,8 +461,8 @@ body.contact-on .contact-section {
 }
 
 .travel-close,
-.wildlife-close,
-.nature-close {
+.certification-close,
+.resume-close {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -481,8 +481,8 @@ body.contact-on .contact-section {
 }
 
 .travel-close:hover,
-.wildlife-close:hover,
-.nature-close:hover {
+.certification-close:hover,
+.resume-close:hover {
     transform: rotate(90deg);
 }
 
@@ -492,21 +492,21 @@ body.contact-on .contact-section {
     transition-delay: 400ms;
 } */
 
-body.wildlife-on .wildlife-section {
+body.certification-on .certification-section {
     top: 0;
     -webkit-transition-delay: 400ms;
     transition-delay: 400ms;
 }
 
-body.nature-on .nature-section {
+body.resume-on .resume-section {
     top: 0;
     -webkit-transition-delay: 400ms;
     transition-delay: 400ms;
 }
 
 .travel-section img,
-.wildlife-section img,
-.nature-section img {
+.certification-section img,
+.resume-section img {
     margin-top: 30px;
     width: 100%;
     height: auto;
@@ -516,8 +516,8 @@ body.nature-on .nature-section {
 }
 
 .travel-section h3,
-.wildlife-section h3,
-.nature-section h3 {
+.certification-section h3,
+.resume-section h3 {
     font-size: 44px;
     line-height: 1.3;
     font-weight: 700;
@@ -526,16 +526,16 @@ body.nature-on .nature-section {
 }
 
 .travel-section p,
-.wildlife-section p,
-.nature-section p {
+.certification-section p,
+.resume-section p {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 1px;
 }
 
 .travel-section p span,
-.wildlife-section p span,
-.nature-section p span {
+.certification-section p span,
+.resume-section p span {
     font-size: 20px;
     line-height: 1.3;
     font-weight: 700;

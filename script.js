@@ -61,21 +61,21 @@
 
     //Wildlife portfolio page
 
-    $(".wildlife").on('click', function () {
-        $("body").addClass("wildlife-on");
+    $(".certification").on('click', function () {
+        $("body").addClass("certification-on");
     });
-    $(".wildlife-close").on('click', function () {
-        $("body").removeClass("wildlife-on");
+    $(".certification-close").on('click', function () {
+        $("body").removeClass("certification-on");
     });
 
 
     //Nature portfolio page
 
-    $(".nature").on('click', function () {
-        $("body").addClass("nature-on");
+    $(".resume").on('click', function () {
+        $("body").addClass("resume-on");
     });
-    $(".nature-close").on('click', function () {
-        $("body").removeClass("nature-on");
+    $(".resume-close").on('click', function () {
+        $("body").removeClass("resume-on");
     });
 
 
