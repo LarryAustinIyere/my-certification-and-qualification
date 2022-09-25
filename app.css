@@ -543,9 +543,9 @@ body.nature-on .nature-section {
 }
 
 .fa {
-    padding: 20px;
+    padding: 15px;
     font-size: 30px;
-    width: 100px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -557,32 +557,32 @@ body.nature-on .nature-section {
 }
 
 .fa-instagram {
-    /* background: #fd1d1d; */
-    background: #000000;
+    background: #fd1d55;
+    /* background: #000000; */
     color: white;
 }
 
 .fa-twitter {
-    /* background: #55ACEE; */
-    background: #000000;
+    background: #55ACEE;
+    /* background: #000000; */
     color: white;
 }
 
 .fa-google {
-    /* background: #dd4b39; */
-    background: #000000;
+    background: #dd4b39;
+    /* background: #000000; */
     color: white;
 }
 
 .fa-linkedin {
-    /* background: #007bb5; */
-    background: #000000;
+    background: #007bb5;
+    /* background: #000000; */
     color: white;
 }
 
 .fa-whatsapp {
-    /* background: #16bb00; */
-    background: #000000;
+    background: #16bb00;
+    /* background: #000000; */
     color: white;
 }
 
